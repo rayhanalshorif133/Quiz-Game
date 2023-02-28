@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.jumbotron{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Register{
+  background-color: #1863A2;
+  padding:5px;
+  
+}
+.Register h1{
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.Register i{
+    font-size: 15px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-left: 31px;
+    margin-right: 5px;
+}
+.Register h1,i{
+    margin-top: 3px ;
+}
+
+
+
+.logo img{
+padding-top: 5%;  
+  height: auto;
+  width: 75%;
+}
+
+.contactus{
+  font-family: 'Open Sans', sans-serif;
+  height: 40%;
+  width: 100%;
+  padding: 5% 0;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.aboutcontact p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+.aboutcontact p i{
+  color: #086AD8;
+  font-size: 2rem;
+  padding: 5px;
+}
+.footer{
+ 
+  background-color: #F8F8F8;
+  padding: 15px 10% ;
+}
+.social_icon i{
+  margin: 5px 5px;
+  color: #494747;
+  font-size: 18px;
+  border: 1px solid #494747 ;
+  padding: 15px;
+  border-radius: 50%;
+  transition: .5s all;
+
+}
+.social_icon i:hover{
+  background-color: #086AD8;
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.2);
+}
+.facebook{
+  padding: 15px 18px !important;
+}
+.aboutquiz{
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.aboutquiz h1,.Worldrecord h1,.team h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 60px;
+  position: relative;
+  
+}
+.aboutquiz h1::after{
+  content: "";
+  position: absolute;
+  width: 20%;
+  border-bottom: 5px solid rgb(250, 52, 2);
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.aboutquiz p,.Worldrecord p{
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  
+}
+.Worldrecord h1::after{
+  content: "";
+  position: absolute;
+  width: 10%;
+  border-bottom: 5px solid rgb(250, 52, 2);
+  text-align:justify;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.team{
+  padding-top: 2%;
+  padding: 0 2%;
+  padding-bottom: 16%;
+}
+.team h1::after{
+  content: "";
+  position: absolute;
+  width: 5%;
+  border-bottom: 5px solid rgb(250, 52, 2);
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card-text i{
+  font-size: 20px;
+  padding: 5px;
+  color: #086AD8;
+}
+.program{
+  font-weight: 700;
+}
+.contact_text{
+  line-height: 11px;
+  margin-bottom: 2%;
+}
+
+
+.Benefits{
+  font-family: 'Roboto Slab', serif;
+  font-size: 281.25%;
+  line-height: 337.5%;
+  font-weight: 4375%;
+  padding-top: 3%;
+
+}
+.Benefits_text{
+  font-family: 'Roboto Slab', serif;
+  font-size: 131.25%;
+  line-height: 200%;
+  font-weight: 2500%;
+  padding-top: -3%;
+}
+.bird_class{
+  background-color: #40844E;
+   padding-top: 5%; 
+   padding-bottom: 5%;
+}
+
+
+.bird_img{
+  padding-top: 3%;
+}
+.Advantages_main{
+  padding-top: 3%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.Advantages_main h1{
+  color: #40844E;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 700;
+  
+}
+.Advantages_main h2{
+  color: #40844E;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  
+}
+.Advantages_main p{
+  color: #575153;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  
+}
+
+  

@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ico.png">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Introduction</title>
+</head>
+<body onload="intofun()">
+    <div id="welcome">
+        <h1 >
+            <span>W</span>
+            <span>e</span>
+            <span>l</span>
+            <span>c</span>
+            <span>o</span>
+            <span>m</span>
+            <span>e</span>
+            <span>t</span>
+            <span>o</span>
+
+        </h1>
+    </div>
+    <div id="intro">
+        <h1 >
+            <span>Q</span>
+            <span>u</span>
+            <span>i</span>
+            <span>z</span>
+            <span>G</span>
+            <span>a</span>
+            <span>m</span>
+            <span>e</span>
+        </h1>
+    </div>
+   
+   <script>
+       
+
+    
+
+    function intofun(){
+      let into_wel =  document.getElementById("welcome"); 
+       let into_quiz =  document.getElementById("intro");
+       into_quiz.style.display = "none";
+       let i = 0;
+    setInterval(() => {
+        into_wel.style.display = "none";
+        into_quiz.style.display = "block";
+    }, 1500);
+
+    setInterval(() => {
+       
+       i=i+1;
+       
+       if(i==1){
+    location.href = "main.html";  
+   }
+    }, 5200);
+
+ 
+
+    }
+
+
+   </script>
+    
+</body>
+</html>
